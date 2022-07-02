@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: #E4DCCF;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+
+}
+.item img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #A10035;
+}
+
+
+.title{
+    font-size: 62px; 
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+.recipe-title{
+    text-align: center;
+}
+h3{
+    font-weight: bold;
+}
+.content{
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ font-size: 30px;
+ gap:20px;
+}
+
+div img{
+    
+    width:350px;
+    height: 380px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+    width:400px;
+    text-align: center;
+}
+
+
+.content{
+    gap:40px;
+    display: flex;
+}
+
+
+ul{
+    list-style-type: none;
+    padding:0px;
+    margin-top: 0; 
+    align-items: center;
+}
+li{
+    align-items: left;
+    padding: 5px;
+    font-size: 25px;
+}
+a{
+    color: rgb(100, 100, 232);
+}
+
